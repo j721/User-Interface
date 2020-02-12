@@ -64,3 +64,91 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.navigation{
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+
+
+header nav a{
+	margin: 0 20px;
+}
+
+.logo{
+	margin-left: 108%;
+}
+
+.content {
+	width:100%;
+}
+
+.left{
+	width: 45%;
+	border: 1px solid pink;
+	display: inline-block;
+	position: relative;
+	left: 20%;
+}
+
+h1{
+	position: relative;
+    left: -82px;
+    bottom: 96px;
+    font-size: 59px;
+}
+
+.logo{
+	display: inline-block;
+	width:45%;
+}
+
+
+.content .logo{
+	width:45%;
+}
+#id{
+	border: 1px solid black;
+    width: 65px;
+    position: relative;
+    bottom: 104px;
+    right: 53px;
+    padding: 5px;
+}
+
+.Features{
+	text-align:center;
+  	display:inline-block;
+ 	 width:28%;
+  	margin:0 2%;
+}
+
+.About{
+	text-align:center;
+  	display:inline-block;
+  	width:28%;
+  	margin:0 2%;
+}
+
+.Services{
+	text-align:center;
+  	display:inline-block;
+  	width:28%;
+  	margin:0 2%;
+}
+
+.Product{
+	text-align:center;
+  	display:inline-block;
+  	width:28%;
+  	margin:0 2%;
+}
+
+.Vision{
+	text-align:center;
+  	display:inline-block;
+  	width:28%;
+  	margin:0 2%;
+}
