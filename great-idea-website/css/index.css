@@ -70,14 +70,13 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 }
 
-
-
-header nav a{
-	margin: 0 20px;
+nav{
+	padding-top: 3%;
 }
 
-.logo{
-	margin-left: 15%;
+header nav a{
+	margin: 0 27px;
+	color: lightslategrey;
 }
 
 .content {
@@ -88,68 +87,116 @@ header nav a{
 	width: 45%;
 	display: inline-block;
 	position: relative;
-	left: 20%;
+	left: 29%;
+}
+
+#Innovation{
+	position: relative;
+    right: 10%;
+}
+
+img{
+	display: inline-block;
+    margin-left: 12%;
 }
 
 h1{
 	position: relative;
-    left: -82px;
     bottom: 96px;
-    font-size: 59px;
+    right: 25%;
+    font-size: 77px;
 }
 
 .logo{
 	display: inline-block;
-	margin-left: 69%;
-	position: relative;
+	margin-left: 79%;
+    position: relative;
     bottom: 16px;
-    right: 1px;
 }
 
+hr{
+	border: 1px solid grey;
+	margin: 4%;
+}
+
+#On{
+	position:relative;
+	left: 70px;
+}
+
+#Demand{
+	position:relative;
+	right: 3%
+}
 
 .content .logo{
 	width:45%;
 }
-#id{
+
+#button{
 	border: 1px solid black;
-    width: 65px;
+	height: 31px;
+    width: 163px;
     position: relative;
     bottom: 104px;
-    right: 53px;
-    padding: 5px;
+    right: 96px;
+	padding-top: 1%;
+	margin-right:66px;
+	text-align: center;
+	box-sizing: border-box;
 }
 
 .Features{
-	text-align:center;
-  	display:inline-block;
- 	 width:28%;
-  	margin:0 2%;
+	display: inline-block;
+    width: 36.5%;
+	margin: 15px 7% 3%;
+    text-align: left;
 }
 
 .About{
-	text-align:center;
-  	display:inline-block;
-  	width:28%;
-  	margin:0 2%;
+	display: inline-block;
+    width: 34%;
+    margin: 15px 7%;
+    text-align: left;
+}
+.middle-img{
+	width: 87%;
+	position: relative;
+	right: 5%;
+    display: inline-block;
 }
 
+
 .Services{
-	text-align:center;
+	text-align:left;
   	display:inline-block;
-  	width:28%;
-  	margin:0 2%;
+	width: 25%;
+	margin: 43px 9px 13px 8%;
 }
 
 .Product{
-	text-align:center;
+	text-align:left;
   	display:inline-block;
-  	width:28%;
+  	width:25%;
   	margin:0 2%;
 }
 
 .Vision{
-	text-align:center;
+	text-align:left;
   	display:inline-block;
-  	width:28%;
+  	width:25%;
   	margin:0 2%;
+}
+
+.Contact{
+	margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 47px;
+}
+
+footer{
+	text-align: center;
+    display: inline-block;
+    margin-left: 41%;
+	margin-bottom: 18%;
 }
